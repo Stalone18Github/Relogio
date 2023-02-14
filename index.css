@@ -44,7 +44,10 @@ letter-spacing: 3px;
   font-weight: bolder;
 }
 @media (width:450px){
-  .relogio div{
-    flex-direction: column;
-  }
+ body .relogio div{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
 }
