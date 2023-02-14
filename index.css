@@ -44,8 +44,3 @@ letter-spacing: 3px;
   color: #33e020;
   font-weight: bolder;
 }
-@media (max-width:380px){
-  body{
-  background: red;
-  }
-}
