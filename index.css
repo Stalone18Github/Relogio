@@ -43,3 +43,8 @@ letter-spacing: 3px;
   color: #33e020;
   font-weight: bolder;
 }
+@media (width:450px){
+  .relogio div{
+    flex-direction: column;
+  }
+}
