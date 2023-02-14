@@ -43,11 +43,19 @@ letter-spacing: 3px;
   color: #33e020;
   font-weight: bolder;
 }
-@media (width:450px){
- body .relogio div{
-  display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- }
+@media (width:400px){
+  .relogio {
+    border-radius: 3px;
+    background: transparent;
+    box-shadow: 2px 8px 10px rgb(0 0 0 / 50%);
+    padding: 10px;
+}
+.relogio div {
+    background: rgba(5,5,5,0.9);
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 70%);
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
 }
