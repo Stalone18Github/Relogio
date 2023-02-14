@@ -43,13 +43,13 @@ letter-spacing: 3px;
   color: #33e020;
   font-weight: bolder;
 }
-@media screem (max-width:380px){
-  .relogio {
+@media (max-width:380px){
+body .relogio {
     border-radius: 3px;
     background: transparent;
     padding: 10px;
 }
-.relogio div {
+body .relogio div {
     background: rgba(5,5,5,0.9);
     border-radius: 7px;
     color: #fff;
