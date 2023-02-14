@@ -20,6 +20,7 @@ body{
   background: transparent;
   box-shadow: 2px 8px 10px rgba(0,0,0,0.5);
   padding: 10px;
+  gap:8px;
 }
 .relogio div{
 display: flex;
@@ -44,16 +45,7 @@ letter-spacing: 3px;
   font-weight: bolder;
 }
 @media (max-width:380px){
-body .relogio {
-    border-radius: 3px;
-    background: transparent;
-    padding: 10px;
-}
-body .relogio div {
-    background: rgba(5,5,5,0.9);
-    border-radius: 7px;
-    color: #fff;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-}
+  body{
+  background: red;
+  }
 }
