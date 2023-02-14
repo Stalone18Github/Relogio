@@ -43,7 +43,7 @@ letter-spacing: 3px;
   color: #33e020;
   font-weight: bolder;
 }
-@media (width:400px){
+@media (max-width:300px){
   .relogio {
     border-radius: 3px;
     background: transparent;
